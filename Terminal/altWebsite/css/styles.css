@@ -1,0 +1,84 @@
+/*===========================GENERAL===========================*/
+/*Made by Merciful, improved by Panda*/
+*{
+    font-family:'Gill Sans MT';
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background: linear-gradient(-45deg, #ec98de, #547bc7, #b062cc, #8058dd);
+    background-size: 400% 400%;
+    animation: gradient 30s ;
+    height: 100vh;
+    }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+      }
+      0% {
+        background-position: 0% 50%;
+      }
+}
+
+
+
+
+/*white text*/
+p,h1,h2,h3,h4,i {
+    color: white;
+}
+
+/*text middle*/
+.start  {
+    position: relative;
+    text-align: center;
+}
+/*this only selects everything in the home class which is h1.    audiowide is a custom font which is imported via the html file*/
+.home h1 {
+    margin-top: -30px;
+    font-family: 'Audiowide', cursive;
+    color:rgb(31, 31, 31);
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /*reflection*/
+    -webkit-box-reflect: below -20px linear-gradient(transparent,rgba(0,0,0,0.3));
+    text-shadow: 
+    0 0 7px rgb(120, 177, 211),
+    0 0 9px rgb(255, 255, 255);
+}
+
+.home h2 {
+padding-top: 100px;
+/*bloom*/
+text-shadow: 
+0 0 7px;
+}
+input {
+border-radius: 1;
+text-align: center;
+
+}
+button {
+
+background: linear-gradient(-45deg, #ec98de, #95b8e5);
+width: 210px;
+height: 54px;
+border-radius: 1cm;
+border-color: #547bc7;
+padding: 5px;
+color: #19175e;
+
+}
+

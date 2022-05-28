@@ -1,0 +1,126 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: rgb(60, 202, 60);
+    font-family: 'Roboto';
+    line-height: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(12, 99, 38, 0.486);
+    
+}
+li {
+    line-height: 20px;
+    list-style-type: none;
+    text-align: left;
+}
+pre {
+    line-height: 0px;
+}
+textarea {
+    border: none;
+    
+}
+.type {
+    animation: blink 1s infinite 7s;
+
+}
+span {
+    animation: blink 1s infinite 1s;
+}
+output {
+    animation: pop 5s forwards 7s;
+}
+@keyframes blink{
+    to{opacity: .0;
+    visibility: visible;
+    
+    }
+  }
+
+.one {
+    animation: pop 5s forwards 0.5s;
+}
+.two {
+    animation: pop 5s forwards 1s;
+}
+.three {
+    animation: pop 5s forwards 1.3s
+}
+.four {
+    animation: pop 5s forwards 2s
+}
+.five {
+    animation: pop 5s forwards 2.5s
+}
+.six {
+    animation: pop 5s forwards 3s
+}
+.seven {
+    animation: pop 5s forwards 3.1s
+}
+.eight {
+    animation: pop 5s forwards 3.2s
+}
+.nine {
+    animation: pop 5s forwards 4s
+}
+.ten {
+    animation: pop 5s forwards 4.5s
+}
+.eleven {
+    animation: pop 5s forwards 4.6s 
+}
+.twelve {
+    animation: pop 5s forwards 4.7s
+}
+.thirteen {
+    animation: pop 5s forwards 4.8s
+}
+.fourteen {
+    animation: pop 5s forwards 5s
+}
+.fifthteen {
+    animation: pop 5s forwards 5.1s
+}
+.sixteen {
+    animation: pop 5s forwards 5.2s
+}
+.seventeen {
+    animation: pop 5s forwards 5.3s
+}
+.eighteen {
+    animation: pop 5s forwards 5.4s
+}
+.nineteen {
+    animation: pop 5s forwards 5.5s
+}
+.twenty {
+    animation: pop 5s forwards 5.7s
+}
+.twentyone {
+    animation: pop 5s forwards 5.8s
+}
+.twentytwo {
+    animation: pop 5s forwards 5.9s
+}
+.ascii {
+    font-family:'Courier New';
+    animation: pop 5s forwards 6.3s;
+}
+.tagline {
+    animation: pop 5s forwards 6.5s
+}
+.--- {
+    animation: pop 5s forwards 6.6s
+}
+.do {
+    animation: pop 5s forwards 6.8s
+}
+.userinput {
+    animation: pop 5s forwards 7s
+}
+@keyframes pop {
+    to{visibility: visible;}
+}
+footer {
+    margin-bottom: 100px;
+}
